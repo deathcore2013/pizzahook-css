@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e5fdaad0-7d40-414b-8d76-2bc7277ef088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{b85edad2-54e7-4c6c-99b6-586e39a941c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2d5de900-2a2a-4a5f-993e-fd8910a3f2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{0418c8ee-b1a7-4863-86ae-6a319f61e364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prediction">
+      <UniqueIdentifier>{b8e3c10f-99b4-492e-ae1a-b4fbdcc50c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bots">
+      <UniqueIdentifier>{402ac5c3-9a38-4fe7-aca7-dbcf438e0f83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="vmt.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="inprediction.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="findmaterial.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="getusercmd.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="createmove.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="prediction.cpp">
+      <Filter>Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="drawportals.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="runcommand.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="drawmodelexecute.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="painttraverse.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="writeusercmddeltabuffer.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="framestagenotify.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="extramousesample.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="aim.cpp">
+      <Filter>Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="knifebot.cpp">
+      <Filter>Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="bot.cpp">
+      <Filter>Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="vars.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="bot.h">
+      <Filter>Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="vars.h" />
+  </ItemGroup>
+</Project>
